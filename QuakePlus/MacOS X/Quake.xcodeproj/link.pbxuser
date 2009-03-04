@@ -129,6 +129,30 @@
 					PBXSymbolsDataSource_ReferenceNameID,
 				);
 			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					774,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
 			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
@@ -151,8 +175,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 257895135;
-			PBXWorkspaceStateSaveDate = 257895135;
+			PBXPerProjectTemplateStateSaveDate = 257898743;
+			PBXWorkspaceStateSaveDate = 257898743;
 		};
 		perUserProjectItems = {
 			3B27C1E20F42B04F0017EDB8 = 3B27C1E20F42B04F0017EDB8 /* PBXTextBookmark */;
@@ -308,7 +332,7 @@
 			3B9460370F3F1CC600ABA7E0 = 3B9460370F3F1CC600ABA7E0 /* PBXTextBookmark */;
 			3B94608F0F3F7A3800ABA7E0 = 3B94608F0F3F7A3800ABA7E0 /* PBXTextBookmark */;
 			3B9460900F3F7A3800ABA7E0 = 3B9460900F3F7A3800ABA7E0 /* PBXTextBookmark */;
-			3BB1C9EE0F5F2AE300C879E6 /* PBXTextBookmark */ = 3BB1C9EE0F5F2AE300C879E6 /* PBXTextBookmark */;
+			3BB1C9EE0F5F2AE300C879E6 = 3BB1C9EE0F5F2AE300C879E6 /* PBXTextBookmark */;
 			3BB6A8D00F3F8F5000C4A751 = 3BB6A8D00F3F8F5000C4A751 /* PBXTextBookmark */;
 			3BB6A8DC0F3F917800C4A751 = 3BB6A8DC0F3F917800C4A751 /* PBXTextBookmark */;
 			3BB6A90E0F3F960700C4A751 = 3BB6A90E0F3F960700C4A751 /* PBXTextBookmark */;
@@ -2042,11 +2066,6 @@
 		name = cd_osx.m;
 		path = cd_osx.mm;
 		sourceTree = SOURCE_ROOT;
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {976, 10768}}";
-			sepNavSelRange = "{5675, 5}";
-			sepNavVisRange = "{5276, 1266}";
-		};
 	};
 	3BB1C9EE0F5F2AE300C879E6 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
