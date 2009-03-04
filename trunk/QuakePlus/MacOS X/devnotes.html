@@ -1,0 +1,69 @@
+<html>
+<body>
+<a href="welcome.html">Welcome</a> <a href="history.html">History</a> <a href="license.html">License</a><p>
+<h2>Refactoring</h2>
+New Front End - with new project...<br>
+	Migrate config info to defaults<br>
+	Defaults<br>
+	Settings<br>
+	Console input and output working<br>
+Remove deprecates<br>
+	NSMovie -> QTMovie<br>
+Remove custom heaps ?<br>
+Comments - doxygen - tutorials - algorithmic breakdown...<br>
+Move from C to C++<br>
+	remove defines<br>
+	classify<br>
+Multithreading ? Jobifying - Grand Central ?<br>
+Move entirely to Obj-C ?<br>
+	Do a port to get performance implications ?<br>
+Change QuakeC to some sort of Obj-C or Applescript ?<br>
+Obj-C 2.0 stuff ?<br>
+<h2>Feature upgrades</h2>
+
+Foreign language support<br>
+Auto-find data folders (ID1) - use spotlight API's<br>
+Fold in all Quake GPL versions - Q1, Q2 & Q3 ?<br>
+Improve graphics<br>
+	Smoother animation for baddies<br>
+	Motion blur<br>
+	Deferred shading<br>
+	Ray tracing ?<br>
+Audio - real-time reverb, water noise etc<br>
+Move from fixed function to shader based OGL<br>
+Full screen effects - underwater, being hit by weapons etc.<br>
+Smoother animation and entity movement<br>
+playback from iTunes - playlist etc.<br>
+
+<h2>Other Ideas</h2>
+
+Pedantic errors - need to move to C++ first<br>
+	Complains about #import directive<br>
+Mirror log window - with input<br>
+Debug tab<br>
+vid_wait<br>
+
+<h2>Bugs to fix</h2>
+Get attached to the project svn repository.<br>
+Stop it changing the mouse and keyboard repeat speeds - especially when it crashes.<br>
+
+<h2>Questions</h2>
+
+Where are preferences stored ? - the plist file looks very empty<br>
+	The .cfg file<br>
+	Move all that stuff to NSUserDefaults ?<br>
+
+<h2>OpenGL Optimisations...</h2>
+
+1) Use Vertex Buffer Objects - currently uses immediate mode<br>
+2) Use Multithreaded Engine - CGLEnable( context, kCGLCEMPEngine ); - need to use VBOs first - only if bound by CPU<br>
+3) Remove client/server sync points ( glGet*, glFinish, glReadPixels, glFinish(CFLFlushDrawable instead) - shadow state instead)<br>
+4) Master the developer tools - OpenGL Profiler, OpenGL Driver monitor, OpenGL Shader builder, Shark, Xray<br>
+5) 64 bit<br>
+6) Adopt GLSL<br>
+7) use APPLE_flush_buffer_range<br>
+8) Use Frame Buffer Objects (FBO)<br>
+9) Use Pixel Buffer Pbjects (PBO)<br>
+10) Embrace the platform<br>
+</body>
+</html>

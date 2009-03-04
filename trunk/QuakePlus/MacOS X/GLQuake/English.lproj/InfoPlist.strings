@@ -1,0 +1,6 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleName = "QuakePlus";
+CFBundleShortVersionString = "0.01";
+CFBundleGetInfoString = "QuakePlus V0.01, Copyright 2009 Martin Scott Linklater.";
+NSHumanReadableCopyright = "Copyright 2009 Martin Scott Linklater";

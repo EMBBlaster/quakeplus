@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>*</string>
+			</array>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>****</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>None</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>QuakePlus</string>
+	<key>CFBundleGetInfoString</key>
+	<string>QuakePlus; 2009 Martin Scott Linklater</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>Quake Help</string>
+	<key>CFBundleHelpBookName</key>
+	<string>Quake Help</string>
+	<key>CFBundleIconFile</key>
+	<string>Quake</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.mslinklater.quakeplus</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>QuakePlus</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.01</string>
+	<key>CFBundleSignature</key>
+	<string>Qua1</string>
+	<key>CFBundleVersion</key>
+	<string>0.01</string>
+	<key>NSAppleScriptEnabled</key>
+	<true/>
+	<key>NSMainNibFile</key>
+	<string>QuakePlus</string>
+	<key>NSPrincipalClass</key>
+	<string>QuakeApplication</string>
+</dict>
+</plist>
